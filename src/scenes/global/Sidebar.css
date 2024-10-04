@@ -1,0 +1,32 @@
+.sidebar-wrapper {
+    
+    height: 150vh !important;
+}
+
+/* Sidebar Inner Styles */
+.sidebar-wrapper .pro-sidebar-inner {
+    background-image: url('../../../public/assets/Frame\ 12.jpg')!important;/* Chemin vers votre image d'arrière-plan */
+    background-size: cover !important;/* Redimensionne l'image pour couvrir tout le conteneur*/
+    background-position:bottom; /* Centre l'image horizontalement et verticalement */
+    
+}
+  
+/* Sidebar Icon Wrapper Styles */
+.sidebar-wrapper .pro-icon-wrapper {
+  background-color: transparent !important;
+}
+
+/* Sidebar Inner Item Styles */
+.sidebar-wrapper .pro-inner-item {
+  padding: 0px 20px 40px 20px !important;
+}
+
+/* Sidebar Inner Item Hover Styles */
+.sidebar-wrapper .pro-inner-item:hover {
+  color: #dbdbdf !important;
+}
+
+/* Sidebar Menu Item Active Styles */
+.sidebar-wrapper .pro-menu-item.active {
+  color: #e6e7f7 !important;
+}
